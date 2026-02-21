@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-20T21:45:18 CST" name="Surefire suite" finished-at="2026-02-20T21:45:20 CST" duration-ms="1070">
+    <groups>
+    </groups>
+    <test started-at="2026-02-20T21:45:18 CST" name="Surefire test" finished-at="2026-02-20T21:45:20 CST" duration-ms="1070">
+      <class name="com.membershiprewards.services.RulesServiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="defineEarnRule_shouldSaveAndReturn_whenValidInputs()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:19 CST" name="defineEarnRule_shouldSaveAndReturn_whenValidInputs" finished-at="2026-02-20T21:45:19 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineEarnRule_shouldSaveAndReturn_whenValidInputs -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="defineEarnRule_shouldThrowValidationException_whenIdBlank()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:19 CST" name="defineEarnRule_shouldThrowValidationException_whenIdBlank" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.ValidationException">
+            <message>
+              <![CDATA[id must not be blank]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.ValidationException: id must not be blank
+at com.membershiprewards.domain.EarnRule.requireNonBlank(EarnRule.java:27)
+at com.membershiprewards.domain.EarnRule.<init>(EarnRule.java:18)
+at com.membershiprewards.services.RulesService.defineEarnRule(RulesService.java:28)
+at com.membershiprewards.services.RulesServiceTest.defineEarnRule_shouldThrowValidationException_whenIdBlank(RulesServiceTest.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineEarnRule_shouldThrowValidationException_whenIdBlank -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="defineEarnRule_shouldThrowValidationException_whenPointsPerUseZero()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="defineEarnRule_shouldThrowValidationException_whenPointsPerUseZero" finished-at="2026-02-20T21:45:20 CST" duration-ms="2" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.ValidationException">
+            <message>
+              <![CDATA[pointsPerUse must be greater than 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.ValidationException: pointsPerUse must be greater than 0
+at com.membershiprewards.domain.EarnRule.requirePositive(EarnRule.java:34)
+at com.membershiprewards.domain.EarnRule.<init>(EarnRule.java:20)
+at com.membershiprewards.services.RulesService.defineEarnRule(RulesService.java:28)
+at com.membershiprewards.services.RulesServiceTest.defineEarnRule_shouldThrowValidationException_whenPointsPerUseZero(RulesServiceTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineEarnRule_shouldThrowValidationException_whenPointsPerUseZero -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="setUp" finished-at="2026-02-20T21:45:20 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="defineRedeemRule_shouldSaveAndReturn_whenValidInputs()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="defineRedeemRule_shouldSaveAndReturn_whenValidInputs" finished-at="2026-02-20T21:45:20 CST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineRedeemRule_shouldSaveAndReturn_whenValidInputs -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="setUp" finished-at="2026-02-20T21:45:20 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="defineRedeemRule_shouldThrowValidationException_whenBenefitDescriptionBlank()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="defineRedeemRule_shouldThrowValidationException_whenBenefitDescriptionBlank" finished-at="2026-02-20T21:45:20 CST" duration-ms="1" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.ValidationException">
+            <message>
+              <![CDATA[benefitDescription must not be blank]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.ValidationException: benefitDescription must not be blank
+at com.membershiprewards.domain.RedeemRule.requireNonBlank(RedeemRule.java:29)
+at com.membershiprewards.domain.RedeemRule.<init>(RedeemRule.java:22)
+at com.membershiprewards.services.RulesService.defineRedeemRule(RulesService.java:52)
+at com.membershiprewards.services.RulesServiceTest.defineRedeemRule_shouldThrowValidationException_whenBenefitDescriptionBlank(RulesServiceTest.java:174)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineRedeemRule_shouldThrowValidationException_whenBenefitDescriptionBlank -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="setUp" finished-at="2026-02-20T21:45:20 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="defineRedeemRule_shouldThrowValidationException_whenPointsCostZero()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="defineRedeemRule_shouldThrowValidationException_whenPointsCostZero" finished-at="2026-02-20T21:45:20 CST" duration-ms="0" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.ValidationException">
+            <message>
+              <![CDATA[pointsCost must be greater than 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.ValidationException: pointsCost must be greater than 0
+at com.membershiprewards.domain.RedeemRule.requirePositive(RedeemRule.java:36)
+at com.membershiprewards.domain.RedeemRule.<init>(RedeemRule.java:21)
+at com.membershiprewards.services.RulesService.defineRedeemRule(RulesService.java:52)
+at com.membershiprewards.services.RulesServiceTest.defineRedeemRule_shouldThrowValidationException_whenPointsCostZero(RulesServiceTest.java:158)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineRedeemRule_shouldThrowValidationException_whenPointsCostZero -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="setUp" finished-at="2026-02-20T21:45:20 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setEarnRuleActive_shouldSaveUpdatedActiveFlag_whenRuleExists()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="setEarnRuleActive_shouldSaveUpdatedActiveFlag_whenRuleExists" finished-at="2026-02-20T21:45:20 CST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEarnRuleActive_shouldSaveUpdatedActiveFlag_whenRuleExists -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="setUp" finished-at="2026-02-20T21:45:20 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setEarnRuleActive_shouldThrowRuleNotFoundException_whenNotFound()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="setEarnRuleActive_shouldThrowRuleNotFoundException_whenNotFound" finished-at="2026-02-20T21:45:20 CST" duration-ms="1" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.RuleNotFoundException">
+            <message>
+              <![CDATA[Earn rule not found: earn99]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.RuleNotFoundException: Earn rule not found: earn99
+at com.membershiprewards.services.RulesService.lambda$setEarnRuleActive$0(RulesService.java:37)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at com.membershiprewards.services.RulesService.setEarnRuleActive(RulesService.java:37)
+at com.membershiprewards.services.RulesServiceTest.setEarnRuleActive_shouldThrowRuleNotFoundException_whenNotFound(RulesServiceTest.java:117)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.RuleNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEarnRuleActive_shouldThrowRuleNotFoundException_whenNotFound -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="setUp" finished-at="2026-02-20T21:45:20 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setRedeemRuleActive_shouldSaveUpdatedActiveFlag_whenRuleExists()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="setRedeemRuleActive_shouldSaveUpdatedActiveFlag_whenRuleExists" finished-at="2026-02-20T21:45:20 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRedeemRuleActive_shouldSaveUpdatedActiveFlag_whenRuleExists -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="setUp" finished-at="2026-02-20T21:45:20 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setRedeemRuleActive_shouldThrowRuleNotFoundException_whenNotFound()[pri:0, instance:com.membershiprewards.services.RulesServiceTest@1e67a849]" started-at="2026-02-20T21:45:20 CST" name="setRedeemRuleActive_shouldThrowRuleNotFoundException_whenNotFound" finished-at="2026-02-20T21:45:20 CST" duration-ms="1" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.RuleNotFoundException">
+            <message>
+              <![CDATA[Redeem rule not found: redeem99]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.RuleNotFoundException: Redeem rule not found: redeem99
+at com.membershiprewards.services.RulesService.lambda$setRedeemRuleActive$0(RulesService.java:61)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at com.membershiprewards.services.RulesService.setRedeemRuleActive(RulesService.java:61)
+at com.membershiprewards.services.RulesServiceTest.setRedeemRuleActive_shouldThrowRuleNotFoundException_whenNotFound(RulesServiceTest.java:208)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.RuleNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRedeemRuleActive_shouldThrowRuleNotFoundException_whenNotFound -->
+      </class> <!-- com.membershiprewards.services.RulesServiceTest -->
+      <class name="com.membershiprewards.services.PointsServiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="earnPoints_shouldThrowMembershipInactiveException_whenMemberInactive()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="earnPoints_shouldThrowMembershipInactiveException_whenMemberInactive" finished-at="2026-02-20T21:45:19 CST" duration-ms="3" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.MembershipInactiveException">
+            <message>
+              <![CDATA[Membership is inactive for member: m1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.MembershipInactiveException: Membership is inactive for member: m1
+at com.membershiprewards.services.PointsService.findActiveMemberOrThrow(PointsService.java:159)
+at com.membershiprewards.services.PointsService.earnPoints(PointsService.java:58)
+at com.membershiprewards.services.PointsServiceTest.earnPoints_shouldThrowMembershipInactiveException_whenMemberInactive(PointsServiceTest.java:123)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.MembershipInactiveException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- earnPoints_shouldThrowMembershipInactiveException_whenMemberInactive -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="earnPoints_shouldThrowRuleNotFoundException_whenNoActiveEarnRule()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="earnPoints_shouldThrowRuleNotFoundException_whenNoActiveEarnRule" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.RuleNotFoundException">
+            <message>
+              <![CDATA[No active earn rule found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.RuleNotFoundException: No active earn rule found
+at com.membershiprewards.services.PointsService.lambda$findActiveEarnRuleOrThrow$0(PointsService.java:166)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at com.membershiprewards.services.PointsService.findActiveEarnRuleOrThrow(PointsService.java:166)
+at com.membershiprewards.services.PointsService.earnPoints(PointsService.java:59)
+at com.membershiprewards.services.PointsServiceTest.earnPoints_shouldThrowRuleNotFoundException_whenNoActiveEarnRule(PointsServiceTest.java:140)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.RuleNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- earnPoints_shouldThrowRuleNotFoundException_whenNoActiveEarnRule -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="earnPoints_shouldUpdateAccountAndSaveTransaction_whenMemberActiveAndActiveEarnRuleAndExistingAccount()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="earnPoints_shouldUpdateAccountAndSaveTransaction_whenMemberActiveAndActiveEarnRuleAndExistingAccount" finished-at="2026-02-20T21:45:19 CST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- earnPoints_shouldUpdateAccountAndSaveTransaction_whenMemberActiveAndActiveEarnRuleAndExistingAccount -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getPointsHistory_shouldReturnListFromRepository_whenMemberExists()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="getPointsHistory_shouldReturnListFromRepository_whenMemberExists" finished-at="2026-02-20T21:45:19 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPointsHistory_shouldReturnListFromRepository_whenMemberExists -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getPointsHistory_shouldThrowMemberNotFoundException_whenMemberNotFound()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="getPointsHistory_shouldThrowMemberNotFoundException_whenMemberNotFound" finished-at="2026-02-20T21:45:19 CST" duration-ms="3" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.MemberNotFoundException">
+            <message>
+              <![CDATA[Member not found: m99]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.MemberNotFoundException: Member not found: m99
+at com.membershiprewards.services.PointsService.lambda$findMemberOrThrow$0(PointsService.java:153)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at com.membershiprewards.services.PointsService.findMemberOrThrow(PointsService.java:153)
+at com.membershiprewards.services.PointsService.getPointsHistory(PointsService.java:127)
+at com.membershiprewards.services.PointsServiceTest.getPointsHistory_shouldThrowMemberNotFoundException_whenMemberNotFound(PointsServiceTest.java:253)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.MemberNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPointsHistory_shouldThrowMemberNotFoundException_whenMemberNotFound -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getPointsSummaryReport_shouldReturnZeros_whenEmptyMemberList()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="getPointsSummaryReport_shouldReturnZeros_whenEmptyMemberList" finished-at="2026-02-20T21:45:19 CST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPointsSummaryReport_shouldReturnZeros_whenEmptyMemberList -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getPointsSummaryReport_shouldSumTotalsCorrectly_whenMembersWithAndWithoutAccounts()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="getPointsSummaryReport_shouldSumTotalsCorrectly_whenMembersWithAndWithoutAccounts" finished-at="2026-02-20T21:45:19 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPointsSummaryReport_shouldSumTotalsCorrectly_whenMembersWithAndWithoutAccounts -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="redeemPoints_shouldDeductBalanceAndSaveTransaction_whenMemberActiveAndSufficientBalance()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="redeemPoints_shouldDeductBalanceAndSaveTransaction_whenMemberActiveAndSufficientBalance" finished-at="2026-02-20T21:45:19 CST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redeemPoints_shouldDeductBalanceAndSaveTransaction_whenMemberActiveAndSufficientBalance -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="redeemPoints_shouldThrowInsufficientPointsException_whenInsufficientBalance()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="redeemPoints_shouldThrowInsufficientPointsException_whenInsufficientBalance" finished-at="2026-02-20T21:45:19 CST" duration-ms="2" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.InsufficientPointsException">
+            <message>
+              <![CDATA[Insufficient points: balance=50, required=100]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.InsufficientPointsException: Insufficient points: balance=50, required=100
+at com.membershiprewards.services.PointsService.redeemPoints(PointsService.java:97)
+at com.membershiprewards.services.PointsServiceTest.redeemPoints_shouldThrowInsufficientPointsException_whenInsufficientBalance(PointsServiceTest.java:200)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.InsufficientPointsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redeemPoints_shouldThrowInsufficientPointsException_whenInsufficientBalance -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="redeemPoints_shouldThrowRuleNotFoundException_whenNoActiveRedeemRule()[pri:0, instance:com.membershiprewards.services.PointsServiceTest@41ee392b]" started-at="2026-02-20T21:45:19 CST" name="redeemPoints_shouldThrowRuleNotFoundException_whenNoActiveRedeemRule" finished-at="2026-02-20T21:45:19 CST" duration-ms="3" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.RuleNotFoundException">
+            <message>
+              <![CDATA[No active redeem rule found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.RuleNotFoundException: No active redeem rule found
+at com.membershiprewards.services.PointsService.lambda$findActiveRedeemRuleOrThrow$0(PointsService.java:171)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at com.membershiprewards.services.PointsService.findActiveRedeemRuleOrThrow(PointsService.java:171)
+at com.membershiprewards.services.PointsService.redeemPoints(PointsService.java:88)
+at com.membershiprewards.services.PointsServiceTest.redeemPoints_shouldThrowRuleNotFoundException_whenNoActiveRedeemRule(PointsServiceTest.java:217)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.RuleNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redeemPoints_shouldThrowRuleNotFoundException_whenNoActiveRedeemRule -->
+      </class> <!-- com.membershiprewards.services.PointsServiceTest -->
+      <class name="com.membershiprewards.services.MembershipServiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getMembershipStatus_shouldReturnStatus_whenMemberExists()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="getMembershipStatus_shouldReturnStatus_whenMemberExists" finished-at="2026-02-20T21:45:19 CST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMembershipStatus_shouldReturnStatus_whenMemberExists -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getMembershipStatus_shouldThrowMemberNotFoundException_whenNotFound()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="getMembershipStatus_shouldThrowMemberNotFoundException_whenNotFound" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.MemberNotFoundException">
+            <message>
+              <![CDATA[Member not found: m99]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.MemberNotFoundException: Member not found: m99
+at com.membershiprewards.services.MembershipService.lambda$findMemberOrThrow$0(MembershipService.java:76)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at com.membershiprewards.services.MembershipService.findMemberOrThrow(MembershipService.java:76)
+at com.membershiprewards.services.MembershipService.getMembershipStatus(MembershipService.java:58)
+at com.membershiprewards.services.MembershipServiceTest.getMembershipStatus_shouldThrowMemberNotFoundException_whenNotFound(MembershipServiceTest.java:151)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.MemberNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMembershipStatus_shouldThrowMemberNotFoundException_whenNotFound -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="listMembersByStatus_shouldFilterCorrectly_whenMixOfActiveAndInactive()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="listMembersByStatus_shouldFilterCorrectly_whenMixOfActiveAndInactive" finished-at="2026-02-20T21:45:19 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listMembersByStatus_shouldFilterCorrectly_whenMixOfActiveAndInactive -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="listMembersByStatus_shouldThrowValidationException_whenStatusIsNull()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="listMembersByStatus_shouldThrowValidationException_whenStatusIsNull" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.ValidationException">
+            <message>
+              <![CDATA[status must not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.ValidationException: status must not be null
+at com.membershiprewards.services.MembershipService.listMembersByStatus(MembershipService.java:67)
+at com.membershiprewards.services.MembershipServiceTest.listMembersByStatus_shouldThrowValidationException_whenStatusIsNull(MembershipServiceTest.java:179)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listMembersByStatus_shouldThrowValidationException_whenStatusIsNull -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerMember_shouldSaveAndReturnMemberWithActive_whenValidInputs()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="registerMember_shouldSaveAndReturnMemberWithActive_whenValidInputs" finished-at="2026-02-20T21:45:19 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMember_shouldSaveAndReturnMemberWithActive_whenValidInputs -->
+        <test-method signature="registerMember_shouldThrowValidationException_whenEmailInvalid()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="registerMember_shouldThrowValidationException_whenEmailInvalid" finished-at="2026-02-20T21:45:19 CST" duration-ms="0" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.ValidationException">
+            <message>
+              <![CDATA[email must contain '@']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.ValidationException: email must contain '@'
+at com.membershiprewards.services.MembershipService.validateEmail(MembershipService.java:90)
+at com.membershiprewards.services.MembershipService.registerMember(MembershipService.java:30)
+at com.membershiprewards.services.MembershipServiceTest.registerMember_shouldThrowValidationException_whenEmailInvalid(MembershipServiceTest.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMember_shouldThrowValidationException_whenEmailInvalid -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerMember_shouldThrowValidationException_whenIdBlank()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="registerMember_shouldThrowValidationException_whenIdBlank" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.ValidationException">
+            <message>
+              <![CDATA[id must not be blank]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.ValidationException: id must not be blank
+at com.membershiprewards.services.MembershipService.validateNonBlank(MembershipService.java:81)
+at com.membershiprewards.services.MembershipService.registerMember(MembershipService.java:28)
+at com.membershiprewards.services.MembershipServiceTest.registerMember_shouldThrowValidationException_whenIdBlank(MembershipServiceTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMember_shouldThrowValidationException_whenIdBlank -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setMembershipStatus_shouldSaveUpdatedStatus_whenMemberExists()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="setMembershipStatus_shouldSaveUpdatedStatus_whenMemberExists" finished-at="2026-02-20T21:45:19 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMembershipStatus_shouldSaveUpdatedStatus_whenMemberExists -->
+        <test-method signature="setMembershipStatus_shouldThrowMemberNotFoundException_whenMemberDoesNotExist()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="setMembershipStatus_shouldThrowMemberNotFoundException_whenMemberDoesNotExist" finished-at="2026-02-20T21:45:19 CST" duration-ms="1" status="PASS">
+          <exception class="com.membershiprewards.domain.exceptions.MemberNotFoundException">
+            <message>
+              <![CDATA[Member not found: m99]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.membershiprewards.domain.exceptions.MemberNotFoundException: Member not found: m99
+at com.membershiprewards.services.MembershipService.lambda$findMemberOrThrow$0(MembershipService.java:76)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at com.membershiprewards.services.MembershipService.findMemberOrThrow(MembershipService.java:76)
+at com.membershiprewards.services.MembershipService.setMembershipStatus(MembershipService.java:42)
+at com.membershiprewards.services.MembershipServiceTest.setMembershipStatus_shouldThrowMemberNotFoundException_whenMemberDoesNotExist(MembershipServiceTest.java:120)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.membershiprewards.domain.exceptions.MemberNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMembershipStatus_shouldThrowMemberNotFoundException_whenMemberDoesNotExist -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.membershiprewards.services.MembershipServiceTest@f0f2775]" started-at="2026-02-20T21:45:19 CST" name="setUp" finished-at="2026-02-20T21:45:19 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.membershiprewards.services.MembershipServiceTest -->
+      <class name="com.membershiprewards.SanityTest">
+        <test-method signature="smokeTestPasses()[pri:0, instance:com.membershiprewards.SanityTest@49070868]" started-at="2026-02-20T21:45:19 CST" name="smokeTestPasses" finished-at="2026-02-20T21:45:19 CST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTestPasses -->
+      </class> <!-- com.membershiprewards.SanityTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

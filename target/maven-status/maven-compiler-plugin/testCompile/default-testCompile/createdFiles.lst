@@ -1,0 +1,4 @@
+com\membershiprewards\services\PointsServiceTest.class
+com\membershiprewards\services\MembershipServiceTest.class
+com\membershiprewards\services\RulesServiceTest.class
+com\membershiprewards\SanityTest.class
