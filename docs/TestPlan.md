@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|--------|
-| **University** | [Nombre de la universidad] |
-| **Course** | [Nombre del curso] |
+| **University** | Universidad Técnica Nacional |
+| **Course** | Calidad del software — Ingeniería en Computación |
 | **Project** | MembershipRewardsSystem |
-| **Deliverable** | Project 1 – Unit Testing |
+| **Deliverable** | Proyecto 1 – Pruebas unitarias |
 | **Team member** | Ana Ulate Salas |
 | **Date** | 20 Feb 2026 |
 
@@ -122,14 +122,17 @@ Tests run: 30, Failures: 0, Errors: 0, Skipped: 0
 
 ### Paste area for full output
 
-*(Paste the full `.\mvnw test` console output below if required by the rubric.)*
+*(Salida real de `.\mvnw test` para la rúbrica.)*
 
 ```
+[INFO] ----------< com.membershiprewards:membership-rewards-system >-----------
+[INFO] Building MembershipRewardsSystem 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running TestSuite
-...
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.88 s -- in TestSuite
 [INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS

@@ -563,128 +563,128 @@ data.addRows(30);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getMembershipStatus_shouldReturnStatus_whenMemberExists')
 data.setCell(0, 2, 'com.membershiprewards.services.MembershipServiceTest')
-data.setCell(0, 3, 27);
+data.setCell(0, 3, 50);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'redeemPoints_shouldDeductBalanceAndSaveTransaction_whenMemberActiveAndSufficientBalance')
-data.setCell(1, 2, 'com.membershiprewards.services.PointsServiceTest')
-data.setCell(1, 3, 9);
+data.setCell(1, 1, 'smokeTestPasses')
+data.setCell(1, 2, 'com.membershiprewards.SanityTest')
+data.setCell(1, 3, 10);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'smokeTestPasses')
-data.setCell(2, 2, 'com.membershiprewards.SanityTest')
-data.setCell(2, 3, 7);
+data.setCell(2, 1, 'setEarnRuleActive_shouldSaveUpdatedActiveFlag_whenRuleExists')
+data.setCell(2, 2, 'com.membershiprewards.services.RulesServiceTest')
+data.setCell(2, 3, 8);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'defineRedeemRule_shouldSaveAndReturn_whenValidInputs')
-data.setCell(3, 2, 'com.membershiprewards.services.RulesServiceTest')
-data.setCell(3, 3, 7);
+data.setCell(3, 1, 'earnPoints_shouldUpdateAccountAndSaveTransaction_whenMemberActiveAndActiveEarnRuleAndExistingAccount')
+data.setCell(3, 2, 'com.membershiprewards.services.PointsServiceTest')
+data.setCell(3, 3, 8);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'getPointsSummaryReport_shouldReturnZeros_whenEmptyMemberList')
-data.setCell(4, 2, 'com.membershiprewards.services.PointsServiceTest')
+data.setCell(4, 1, 'setRedeemRuleActive_shouldSaveUpdatedActiveFlag_whenRuleExists')
+data.setCell(4, 2, 'com.membershiprewards.services.RulesServiceTest')
 data.setCell(4, 3, 6);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'earnPoints_shouldUpdateAccountAndSaveTransaction_whenMemberActiveAndActiveEarnRuleAndExistingAccount')
-data.setCell(5, 2, 'com.membershiprewards.services.PointsServiceTest')
+data.setCell(5, 1, 'registerMember_shouldSaveAndReturnMemberWithActive_whenValidInputs')
+data.setCell(5, 2, 'com.membershiprewards.services.MembershipServiceTest')
 data.setCell(5, 3, 6);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'setEarnRuleActive_shouldSaveUpdatedActiveFlag_whenRuleExists')
-data.setCell(6, 2, 'com.membershiprewards.services.RulesServiceTest')
+data.setCell(6, 1, 'redeemPoints_shouldDeductBalanceAndSaveTransaction_whenMemberActiveAndSufficientBalance')
+data.setCell(6, 2, 'com.membershiprewards.services.PointsServiceTest')
 data.setCell(6, 3, 5);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'earnPoints_shouldThrowMembershipInactiveException_whenMemberInactive')
+data.setCell(7, 1, 'getPointsSummaryReport_shouldReturnZeros_whenEmptyMemberList')
 data.setCell(7, 2, 'com.membershiprewards.services.PointsServiceTest')
-data.setCell(7, 3, 3);
+data.setCell(7, 3, 4);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'setRedeemRuleActive_shouldSaveUpdatedActiveFlag_whenRuleExists')
+data.setCell(8, 1, 'defineRedeemRule_shouldSaveAndReturn_whenValidInputs')
 data.setCell(8, 2, 'com.membershiprewards.services.RulesServiceTest')
-data.setCell(8, 3, 3);
+data.setCell(8, 3, 4);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'defineEarnRule_shouldSaveAndReturn_whenValidInputs')
 data.setCell(9, 2, 'com.membershiprewards.services.RulesServiceTest')
 data.setCell(9, 3, 3);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'getPointsHistory_shouldThrowMemberNotFoundException_whenMemberNotFound')
-data.setCell(10, 2, 'com.membershiprewards.services.PointsServiceTest')
+data.setCell(10, 1, 'setMembershipStatus_shouldSaveUpdatedStatus_whenMemberExists')
+data.setCell(10, 2, 'com.membershiprewards.services.MembershipServiceTest')
 data.setCell(10, 3, 3);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'listMembersByStatus_shouldFilterCorrectly_whenMixOfActiveAndInactive')
 data.setCell(11, 2, 'com.membershiprewards.services.MembershipServiceTest')
 data.setCell(11, 3, 3);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'getPointsSummaryReport_shouldSumTotalsCorrectly_whenMembersWithAndWithoutAccounts')
-data.setCell(12, 2, 'com.membershiprewards.services.PointsServiceTest')
+data.setCell(12, 1, 'setRedeemRuleActive_shouldThrowRuleNotFoundException_whenNotFound')
+data.setCell(12, 2, 'com.membershiprewards.services.RulesServiceTest')
 data.setCell(12, 3, 3);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'redeemPoints_shouldThrowRuleNotFoundException_whenNoActiveRedeemRule')
+data.setCell(13, 1, 'earnPoints_shouldThrowRuleNotFoundException_whenNoActiveEarnRule')
 data.setCell(13, 2, 'com.membershiprewards.services.PointsServiceTest')
 data.setCell(13, 3, 3);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'defineEarnRule_shouldThrowValidationException_whenPointsPerUseZero')
-data.setCell(14, 2, 'com.membershiprewards.services.RulesServiceTest')
-data.setCell(14, 3, 2);
+data.setCell(14, 1, 'redeemPoints_shouldThrowInsufficientPointsException_whenInsufficientBalance')
+data.setCell(14, 2, 'com.membershiprewards.services.PointsServiceTest')
+data.setCell(14, 3, 3);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'getPointsHistory_shouldReturnListFromRepository_whenMemberExists')
-data.setCell(15, 2, 'com.membershiprewards.services.PointsServiceTest')
-data.setCell(15, 3, 2);
+data.setCell(15, 1, 'setEarnRuleActive_shouldThrowRuleNotFoundException_whenNotFound')
+data.setCell(15, 2, 'com.membershiprewards.services.RulesServiceTest')
+data.setCell(15, 3, 3);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'setMembershipStatus_shouldSaveUpdatedStatus_whenMemberExists')
-data.setCell(16, 2, 'com.membershiprewards.services.MembershipServiceTest')
+data.setCell(16, 1, 'defineRedeemRule_shouldThrowValidationException_whenPointsCostZero')
+data.setCell(16, 2, 'com.membershiprewards.services.RulesServiceTest')
 data.setCell(16, 3, 2);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'registerMember_shouldSaveAndReturnMemberWithActive_whenValidInputs')
+data.setCell(17, 1, 'setMembershipStatus_shouldThrowMemberNotFoundException_whenMemberDoesNotExist')
 data.setCell(17, 2, 'com.membershiprewards.services.MembershipServiceTest')
 data.setCell(17, 3, 2);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'redeemPoints_shouldThrowInsufficientPointsException_whenInsufficientBalance')
+data.setCell(18, 1, 'earnPoints_shouldThrowMembershipInactiveException_whenMemberInactive')
 data.setCell(18, 2, 'com.membershiprewards.services.PointsServiceTest')
 data.setCell(18, 3, 2);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'getMembershipStatus_shouldThrowMemberNotFoundException_whenNotFound')
-data.setCell(19, 2, 'com.membershiprewards.services.MembershipServiceTest')
-data.setCell(19, 3, 1);
+data.setCell(19, 1, 'getPointsHistory_shouldReturnListFromRepository_whenMemberExists')
+data.setCell(19, 2, 'com.membershiprewards.services.PointsServiceTest')
+data.setCell(19, 3, 2);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'setMembershipStatus_shouldThrowMemberNotFoundException_whenMemberDoesNotExist')
-data.setCell(20, 2, 'com.membershiprewards.services.MembershipServiceTest')
-data.setCell(20, 3, 1);
+data.setCell(20, 1, 'defineRedeemRule_shouldThrowValidationException_whenBenefitDescriptionBlank')
+data.setCell(20, 2, 'com.membershiprewards.services.RulesServiceTest')
+data.setCell(20, 3, 2);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'registerMember_shouldThrowValidationException_whenIdBlank')
-data.setCell(21, 2, 'com.membershiprewards.services.MembershipServiceTest')
-data.setCell(21, 3, 1);
+data.setCell(21, 1, 'getPointsSummaryReport_shouldSumTotalsCorrectly_whenMembersWithAndWithoutAccounts')
+data.setCell(21, 2, 'com.membershiprewards.services.PointsServiceTest')
+data.setCell(21, 3, 2);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'listMembersByStatus_shouldThrowValidationException_whenStatusIsNull')
-data.setCell(22, 2, 'com.membershiprewards.services.MembershipServiceTest')
-data.setCell(22, 3, 1);
+data.setCell(22, 1, 'redeemPoints_shouldThrowRuleNotFoundException_whenNoActiveRedeemRule')
+data.setCell(22, 2, 'com.membershiprewards.services.PointsServiceTest')
+data.setCell(22, 3, 2);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'defineRedeemRule_shouldThrowValidationException_whenBenefitDescriptionBlank')
+data.setCell(23, 1, 'defineEarnRule_shouldThrowValidationException_whenPointsPerUseZero')
 data.setCell(23, 2, 'com.membershiprewards.services.RulesServiceTest')
 data.setCell(23, 3, 1);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'setRedeemRuleActive_shouldThrowRuleNotFoundException_whenNotFound')
-data.setCell(24, 2, 'com.membershiprewards.services.RulesServiceTest')
+data.setCell(24, 1, 'registerMember_shouldThrowValidationException_whenEmailInvalid')
+data.setCell(24, 2, 'com.membershiprewards.services.MembershipServiceTest')
 data.setCell(24, 3, 1);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'earnPoints_shouldThrowRuleNotFoundException_whenNoActiveEarnRule')
-data.setCell(25, 2, 'com.membershiprewards.services.PointsServiceTest')
+data.setCell(25, 1, 'registerMember_shouldThrowValidationException_whenIdBlank')
+data.setCell(25, 2, 'com.membershiprewards.services.MembershipServiceTest')
 data.setCell(25, 3, 1);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'defineEarnRule_shouldThrowValidationException_whenIdBlank')
-data.setCell(26, 2, 'com.membershiprewards.services.RulesServiceTest')
+data.setCell(26, 1, 'getPointsHistory_shouldThrowMemberNotFoundException_whenMemberNotFound')
+data.setCell(26, 2, 'com.membershiprewards.services.PointsServiceTest')
 data.setCell(26, 3, 1);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'setEarnRuleActive_shouldThrowRuleNotFoundException_whenNotFound')
+data.setCell(27, 1, 'defineEarnRule_shouldThrowValidationException_whenIdBlank')
 data.setCell(27, 2, 'com.membershiprewards.services.RulesServiceTest')
 data.setCell(27, 3, 1);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'defineRedeemRule_shouldThrowValidationException_whenPointsCostZero')
-data.setCell(28, 2, 'com.membershiprewards.services.RulesServiceTest')
+data.setCell(28, 1, 'getMembershipStatus_shouldThrowMemberNotFoundException_whenNotFound')
+data.setCell(28, 2, 'com.membershiprewards.services.MembershipServiceTest')
 data.setCell(28, 3, 0);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'registerMember_shouldThrowValidationException_whenEmailInvalid')
+data.setCell(29, 1, 'listMembersByStatus_shouldThrowValidationException_whenStatusIsNull')
 data.setCell(29, 2, 'com.membershiprewards.services.MembershipServiceTest')
 data.setCell(29, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 107 ms</span>
+              <span class="suite-total-time">Total running time: 141 ms</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -720,241 +720,241 @@ return data;
               <div class="chronological-class-name">com.membershiprewards.services.MembershipServiceTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">11 ms</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getMembershipStatus_shouldReturnStatus_whenMemberExists</span>
-                <span class="method-start">768 ms</span>
+                <span class="method-start">1423 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">797 ms</span>
+                <span class="method-start">1475 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getMembershipStatus_shouldThrowMemberNotFoundException_whenNotFound</span>
-                <span class="method-start">798 ms</span>
+                <span class="method-start">1476 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">800 ms</span>
+                <span class="method-start">1478 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">listMembersByStatus_shouldFilterCorrectly_whenMixOfActiveAndInactive</span>
-                <span class="method-start">801 ms</span>
+                <span class="method-start">1479 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">804 ms</span>
+                <span class="method-start">1483 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">listMembersByStatus_shouldThrowValidationException_whenStatusIsNull</span>
-                <span class="method-start">805 ms</span>
+                <span class="method-start">1484 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">806 ms</span>
+                <span class="method-start">1485 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerMember_shouldSaveAndReturnMemberWithActive_whenValidInputs</span>
-                <span class="method-start">807 ms</span>
+                <span class="method-start">1486 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">810 ms</span>
+                <span class="method-start">1493 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerMember_shouldThrowValidationException_whenEmailInvalid</span>
-                <span class="method-start">810 ms</span>
+                <span class="method-start">1494 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">811 ms</span>
+                <span class="method-start">1497 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerMember_shouldThrowValidationException_whenIdBlank</span>
-                <span class="method-start">811 ms</span>
+                <span class="method-start">1498 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">812 ms</span>
+                <span class="method-start">1500 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">setMembershipStatus_shouldSaveUpdatedStatus_whenMemberExists</span>
-                <span class="method-start">814 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">setMembershipStatus_shouldThrowMemberNotFoundException_whenMemberDoesNotExist</span>
-                <span class="method-start">817 ms</span>
+                <span class="method-start">1501 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">817 ms</span>
+                <span class="method-start">1505 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">setMembershipStatus_shouldThrowMemberNotFoundException_whenMemberDoesNotExist</span>
+                <span class="method-start">1506 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.membershiprewards.services.PointsServiceTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">819 ms</span>
+                <span class="method-start">1510 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">earnPoints_shouldThrowMembershipInactiveException_whenMemberInactive</span>
-                <span class="method-start">899 ms</span>
+                <span class="method-start">1616 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">903 ms</span>
+                <span class="method-start">1619 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">earnPoints_shouldThrowRuleNotFoundException_whenNoActiveEarnRule</span>
-                <span class="method-start">904 ms</span>
+                <span class="method-start">1621 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">906 ms</span>
+                <span class="method-start">1625 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">earnPoints_shouldUpdateAccountAndSaveTransaction_whenMemberActiveAndActiveEarnRuleAndExistingAccount</span>
-                <span class="method-start">908 ms</span>
+                <span class="method-start">1626 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">915 ms</span>
+                <span class="method-start">1635 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getPointsHistory_shouldReturnListFromRepository_whenMemberExists</span>
-                <span class="method-start">918 ms</span>
+                <span class="method-start">1637 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">921 ms</span>
+                <span class="method-start">1641 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getPointsHistory_shouldThrowMemberNotFoundException_whenMemberNotFound</span>
-                <span class="method-start">922 ms</span>
+                <span class="method-start">1643 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">930 ms</span>
+                <span class="method-start">1646 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getPointsSummaryReport_shouldReturnZeros_whenEmptyMemberList</span>
-                <span class="method-start">931 ms</span>
+                <span class="method-start">1650 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">938 ms</span>
+                <span class="method-start">1655 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getPointsSummaryReport_shouldSumTotalsCorrectly_whenMembersWithAndWithoutAccounts</span>
-                <span class="method-start">940 ms</span>
+                <span class="method-start">1658 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">945 ms</span>
+                <span class="method-start">1661 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">redeemPoints_shouldDeductBalanceAndSaveTransaction_whenMemberActiveAndSufficientBalance</span>
-                <span class="method-start">947 ms</span>
+                <span class="method-start">1663 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">957 ms</span>
+                <span class="method-start">1669 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">redeemPoints_shouldThrowInsufficientPointsException_whenInsufficientBalance</span>
-                <span class="method-start">962 ms</span>
+                <span class="method-start">1673 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">968 ms</span>
+                <span class="method-start">1679 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">redeemPoints_shouldThrowRuleNotFoundException_whenNoActiveRedeemRule</span>
-                <span class="method-start">972 ms</span>
+                <span class="method-start">1681 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.membershiprewards.services.RulesServiceTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">979 ms</span>
+                <span class="method-start">1685 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">defineEarnRule_shouldSaveAndReturn_whenValidInputs</span>
-                <span class="method-start">981 ms</span>
+                <span class="method-start">1687 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">987 ms</span>
+                <span class="method-start">1691 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">defineEarnRule_shouldThrowValidationException_whenIdBlank</span>
-                <span class="method-start">988 ms</span>
+                <span class="method-start">1692 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">990 ms</span>
+                <span class="method-start">1695 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">defineEarnRule_shouldThrowValidationException_whenPointsPerUseZero</span>
-                <span class="method-start">993 ms</span>
+                <span class="method-start">1697 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">995 ms</span>
+                <span class="method-start">1702 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">defineRedeemRule_shouldSaveAndReturn_whenValidInputs</span>
-                <span class="method-start">997 ms</span>
+                <span class="method-start">1705 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">1005 ms</span>
+                <span class="method-start">1710 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">defineRedeemRule_shouldThrowValidationException_whenBenefitDescriptionBlank</span>
-                <span class="method-start">1006 ms</span>
+                <span class="method-start">1711 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">1011 ms</span>
+                <span class="method-start">1715 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">defineRedeemRule_shouldThrowValidationException_whenPointsCostZero</span>
-                <span class="method-start">1012 ms</span>
+                <span class="method-start">1716 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">1013 ms</span>
+                <span class="method-start">1722 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">setEarnRuleActive_shouldSaveUpdatedActiveFlag_whenRuleExists</span>
-                <span class="method-start">1015 ms</span>
+                <span class="method-start">1724 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">1021 ms</span>
+                <span class="method-start">1735 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">setEarnRuleActive_shouldThrowRuleNotFoundException_whenNotFound</span>
-                <span class="method-start">1022 ms</span>
+                <span class="method-start">1736 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">1026 ms</span>
+                <span class="method-start">1741 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">setRedeemRuleActive_shouldSaveUpdatedActiveFlag_whenRuleExists</span>
-                <span class="method-start">1027 ms</span>
+                <span class="method-start">1744 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">1031 ms</span>
+                <span class="method-start">1752 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">setRedeemRuleActive_shouldThrowRuleNotFoundException_whenNotFound</span>
-                <span class="method-start">1035 ms</span>
+                <span class="method-start">1755 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
